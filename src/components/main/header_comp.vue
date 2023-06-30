@@ -44,7 +44,7 @@ export default {
 
 
 .main_wrapper {
-    height: 100vh;
+    height: 93vh;
 
     .header_titles {
         width: 40%;

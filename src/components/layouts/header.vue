@@ -1,7 +1,7 @@
 <template>
     <div class="boxtop">
         <nav class="container" :class="{ scrollNAv: this.heightSCroll > 90 }">
-            <div class="logo_wrapper">
+            <div class="logo_wrapper" @click="this.$router.push('/')">
                 <img src="../../assets/images/german_flag.jpeg" alt="logo of Bloomsbury as flag of German">
                 <h2 class="title_nav">BLOOMSBURY</h2>
             </div>
@@ -9,6 +9,7 @@
                 <a href="">О нас</a>
                 <a href="">Курсы</a>
                 <a href="">Отзывы</a>
+                <a href="">Преподаватели</a>
                 <a href="">Партнеры</a>
             </div>
             <div class="link_btn">
@@ -51,6 +52,7 @@ nav {
 
     .logo_wrapper {
         display: flex;
+        cursor: pointer;
 
         img {
             object-fit: contain;
@@ -71,7 +73,7 @@ nav {
         font-family: 'Open Sans', sans-serif;
         background: var(--german-yellow);
         color: white;
-        border: 1px solid white;
+        border: 3px solid white;
         padding: 10px 15px;
         border-radius: 10px;
         transition: 1s;
@@ -81,13 +83,18 @@ nav {
             color: var(--german-yellow);
             scale: 1.1;
         }
+
+        &:active {
+            background: #000;
+            color: white;
+        }
     }
 
     .navigation_link_wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 30%;
+        width: 40%;
         font-size: 18px;
         font-family: 'Open Sans', sans-serif;
     }

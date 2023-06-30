@@ -5,9 +5,10 @@ body{
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 :root{
-    --german-black: black ;
+    --german-black: black;
     --german-red:#D20004;
     --german-yellow: #FDC70B;
 }
@@ -18,4 +19,8 @@ a{
 .container{
     max-width: 1400px;
     margin: 0 auto auto;
+}
+p, h1, h2, h3{
+    margin: 0;
+    padding: 0;
 }
