@@ -38,7 +38,7 @@ export default {
     z-index: -5;
     width: 100%;
     object-fit: cover;
-    height: 100vh;
+    height: 93%;
     left: 0;
 }
 
@@ -108,6 +108,7 @@ export default {
                     font-family: 'Open Sans', sans-serif;
                     font-size: 20px;
                     line-height: 60px;
+                    font-weight: 600;
                 }
             }
         }

@@ -10,7 +10,9 @@
                 <a href="">Курсы</a>
                 <a href="">Отзывы</a>
                 <a href="">Партнеры</a>
-                <a href="">Контакты</a>
+            </div>
+            <div class="link_btn">
+                <a href="">Позвонить</a>
             </div>
         </nav>
     </div>
@@ -61,6 +63,23 @@ nav {
             font-family: 'Open Sans', sans-serif;
             font-weight: 900;
             font-size: 24px;
+        }
+    }
+
+    .link_btn {
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        background: var(--german-yellow);
+        color: white;
+        border: 1px solid white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        transition: 1s;
+
+        &:hover {
+            background: white;
+            color: var(--german-yellow);
+            scale: 1.1;
         }
     }
 
