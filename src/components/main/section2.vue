@@ -137,6 +137,7 @@ export default {
 
                 .table_title {
                     width: 80%;
+                    font-family: 'Open Sans', sans-serif;
                 }
             }
         }
