@@ -1,5 +1,5 @@
 <template>
-    <div class="course_main_wrap">
+    <div class="course_main_wrap" id="COURSE">
         <div class="container ">
             <h2 class="title_course">Выберите для себя подходящий вариант обучения </h2>
             <div class="course_wrap">
@@ -94,7 +94,7 @@ export default {
                 transition: 1s;
                 display: inline-block;
                 text-align: center;
-                width: 92%;
+                width: 100%;
                 margin: 0 auto auto;
 
                 &:hover {

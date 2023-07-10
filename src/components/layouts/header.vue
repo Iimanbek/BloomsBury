@@ -1,15 +1,16 @@
 <template>
-    <div class="boxtop">
+    <div class="boxtop" id="TOP">
         <nav class="container" :class="{ scrollNAv: this.heightSCroll > 90 }">
-            <div class="logo_wrapper" @click="this.$router.push('/')">
-                <img src="../../assets/images/german_flag.jpeg" alt="logo of Bloomsbury as flag of German">
-                <h2 class="title_nav">BLOOMSBURY</h2>
-            </div>
+            <a href="/#TOP">
+                <div class="logo_wrapper">
+                    <img src="../../assets/images/german_flag.jpeg" alt="logo of Bloomsbury as flag of German">
+                    <h2 class="title_nav">BLOOMSBURY</h2>
+                </div>
+            </a>
             <div class="navigation_link_wrapper">
-                <a href="">О нас</a>
-                <a href="">Курсы</a>
-                <a href="">Отзывы</a>
-                <a href="">Преподаватели</a>
+                <a href="/#COURSE">Курсы</a>
+                <a href="/#COMMENTS">Отзывы</a>
+                <router-link to="/teachers">Преподаватели</router-link>
                 <a href="">Партнеры</a>
             </div>
             <div class="link_btn">

@@ -1,12 +1,29 @@
 <template>
-    <div class="container">
+    <div class="container" id="COMMENTS">
         <section class="section_4">
+            <h2>Все отзывы от наших дорогих учеников</h2>
             <div class="slides">
                 <div class="slider_box" id="slide-1">
-
+                    <img src="../../assets/images/comment1.jpeg" alt="">
+                </div>
+                <div class="slider_box" id="slide-2">
+                    <img src="../../assets/images/comment2.jpeg" alt="">
+                </div>
+                <div class="slider_box" id="slide-3">
+                    <img src="../../assets/images/comment3.jpeg" alt="">
+                </div>
+                <div class="slider_box" id="slide-4">
+                    <img src="../../assets/images/comment4.jpeg" alt="">
+                </div>
+                <div class="slider_box" id="slide-5">
+                    <img src="../../assets/images/comment5.jpeg" alt="">
+                </div>
+                <div class="slider_box" id="slide-5">
+                    <img src="../../assets/images/comment6.jpeg" alt="">
                 </div>
             </div>
         </section>
+
     </div>
 </template>
 <script>
@@ -15,10 +32,6 @@ export default {
 }
 </script>
 <style lang="scss">
-.section_3_wrap_right {
-    width: 48%;
-}
-
 .slider {
     width: 300px;
     text-align: center;
@@ -106,5 +119,27 @@ export default {
     flex-direction: column;
     text-align: center;
     padding: 0 10px;
+}
+
+.slider_box {
+    padding: 20px;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section_4 {
+    padding: 100px 0 50px 0;
+
+    h2 {
+        text-align: center;
+        font-size: 46px;
+        color: var(--german-black);
+        font-family: 'Open sans', sans-serif;
+        margin-bottom: 40px;
+    }
 }
 </style>

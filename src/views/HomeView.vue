@@ -1,4 +1,5 @@
 <script>
+import teacher from '../components/main/teacher.vue'
 import header_comp from '../components/main/header_comp.vue';
 import section1 from '../components/main/section1.vue';
 import section2 from '../components/main/section2.vue';
@@ -14,7 +15,7 @@ export default {
     'section1': section1,
     'section2': section2,
     'v-course': course,
-    otzyv
+    otzyv, teacher
   }
 }
 </script>
@@ -27,6 +28,7 @@ export default {
       <section2 />
       <v-course />
       <otzyv />
+      <teacher />
     </layout>
   </div>
 </template>
