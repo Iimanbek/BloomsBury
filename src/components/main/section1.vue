@@ -18,7 +18,7 @@ export default {
 </script>
 <style lang="scss">
 .first_lesen {
-    background: #AE6200;
+    background: var(--german-black);
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -40,16 +40,16 @@ export default {
             display: inline-block;
             font-size: 22px;
             font-family: 'Open Sans', sans-serif;
-            background: var(--german-yellow);
+            background: var(--german-red);
             color: white;
-            border: 3px solid white;
+            border: 1px solid white;
             padding: 10px 125px;
             border-radius: 10px;
             transition: 1s;
 
             &:hover {
-                background: white;
-                color: var(--german-yellow);
+                background: var(--german-yellow);
+                color: var(--german-black);
                 scale: 1.1;
             }
 

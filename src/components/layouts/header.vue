@@ -52,6 +52,7 @@ nav {
 
     .logo_wrapper {
         display: flex;
+        align-items: center;
         cursor: pointer;
 
         img {
@@ -71,16 +72,16 @@ nav {
     .link_btn {
         font-size: 18px;
         font-family: 'Open Sans', sans-serif;
-        background: var(--german-yellow);
+        background: var(--german-red);
         color: white;
-        border: 3px solid white;
+        border: 1px solid white;
         padding: 10px 15px;
         border-radius: 10px;
         transition: 1s;
 
         &:hover {
-            background: white;
-            color: var(--german-yellow);
+            background: var(--german-yellow);
+            color: var(--german-black);
             scale: 1.1;
         }
 
