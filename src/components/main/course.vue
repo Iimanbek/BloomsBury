@@ -12,7 +12,7 @@
                         <p>Стоимость: 3000сом</p>
                         <p>Количество занятий: 3 раза в неделю</p>
                         <p>Продолжительность: 2 часа</p>
-                        <a href="" class="consult">Получить консультацию</a>
+                        <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
                     </div>
                 </div>
                 <div class="type_course">
@@ -24,7 +24,7 @@
                         <p>Стоимость: от 4300 - 4800 сомов</p>
                         <p>Количество занятий: 12</p>
                         <p>Продолжительность: 2 часа</p>
-                        <a href="" class="consult">Получить консультацию</a>
+                        <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
                     </div>
                 </div>
                 <div class="type_course">
@@ -36,7 +36,7 @@
                         <p>Стоимость: 3500сом</p>
                         <p>Количество занятий: 5 раз в неделю</p>
                         <p>Продолжительность:1 час 20 мин</p>
-                        <a href="" class="consult">Получить консультацию</a>
+                        <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
                     </div>
                 </div>
             </div>

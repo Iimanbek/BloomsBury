@@ -14,7 +14,7 @@
                 <a href="">Партнеры</a>
             </div>
             <div class="link_btn">
-                <a href="">Позвонить</a>
+                <a href="tel:+996501287385">Позвонить</a>
             </div>
         </nav>
     </div>
