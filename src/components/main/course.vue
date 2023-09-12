@@ -39,9 +39,21 @@
                         <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
                     </div>
                 </div>
+                <div class="type_course">
+                <img class="image_course" src="../../assets/images/course1.jpg" alt="images">
+                <div>
+                  <h3>Онлайн занятия</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae exercitationem velit magni
+                    neque eius ex molestias, quibusdam pariatur animi impedit.</p>
+                  <p>Стоимость: 3500сом</p>
+                  <p>Количество занятий: 5 раз в неделю</p>
+                  <p>Продолжительность:1 час 20 мин</p>
+                  <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
+                </div>
+              </div>
             </div>
         </div>
-    </div>
+   </div>
 </template>
 <script>
 export default {
@@ -56,27 +68,28 @@ export default {
     flex-wrap: wrap;
     margin: 100px 0;
     gap: 30px;
-
+    @media screen and (max-width: 1400px) {
+      justify-content: center;
+    }
     .type_course {
         font-family: 'Open Sans', sans-serif;
-        width: 420px;
-
-        // height: 300px;
+        width: 325px;
+        height:auto;
         background: rgba(256, 256, 256);
-        // box-shadow: 1px 1px 10px white;
         border-radius: 10px;
-
+      @media screen and (max-width: 1400px) {
+        width: 450px;
+        justify-content: center;
+      }
         .image_course {
             width: 100%;
             object-fit: cover;
             border-radius: 10px;
         }
-
         div {
-            padding: 10px;
-
+          padding: 10px;
             h3 {
-                font-size: 24px;
+                font-size: 21px;
             }
 
             p {
@@ -124,4 +137,5 @@ export default {
     font-size: 45px;
     font-family: 'Open Sans', sans-serif;
 }
+
 </style>

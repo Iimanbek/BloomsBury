@@ -59,29 +59,29 @@ export default {
             padding: 30px;
             border-radius: 10px;
             color: white;
-            animation: moveInRight 2s 0.5s 1 linear;
+            animation: moveInRight 2s 0.5s 1 linear forwards;
 
             h1 {
                 color: var(--german-yellow);
                 font-family: 'Open Sans', sans-serif;
+              @media screen and (max-width: 1300px){
+                font-size: 30px;
+              }
             }
 
             @keyframes moveInRight {
                 0% {
-                    /*Here we start*/
                     opacity: 0;
                     transform: translateX(300px);
                 }
 
                 80% {
-                    /*Something can happens at the 80%*/
                     transform: translateX(-10px);
                 }
 
                 100% {
-                    /*Here we finished*/
                     opacity: 1;
-                    transform: translate(0);
+                    transform: translate(40px);
                 }
             }
 
@@ -89,11 +89,16 @@ export default {
                 font-size: 22px;
                 font-weight: 600;
                 font-family: 'Open Sans', sans-serif;
+                @media screen and (max-width: 1300px){
+                  font-size: 20px;
+                }
             }
 
             ul {
                 display: flex;
                 flex-direction: column;
+              margin-top: 20px;
+
             }
 
             .li_wrap {
@@ -105,10 +110,14 @@ export default {
                 }
 
                 li {
-                    font-family: 'Open Sans', sans-serif;
                     font-size: 20px;
                     line-height: 60px;
                     font-weight: 600;
+                  @media screen and (max-width: 1300px){
+                    font-size: 16px;
+                    line-height: 30px;
+                    padding: 10px;
+                  }
                 }
             }
         }

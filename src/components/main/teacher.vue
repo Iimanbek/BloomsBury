@@ -34,44 +34,47 @@
     </div>
 </template>
 <script>
-export default {
-}
 </script>
 <style lang="scss">
 .teacher_wrap {
     background: var(--german-black);
     padding: 100px 0 50px 0;
-
     .teacher_inner {
         display: flex;
         justify-content: space-between;
         gap: 50px;
-
         .media {
             iframe {
                 width: 800px;
                 height: 500px;
+              @media screen and (max-width: 1300px){
+                width: 600px;
+                height: 400px;
+              }
             }
         }
-
         .teacher {
             font-family: 'Open sans', sans-serif;
             color: white;
 
             h2 {
                 font-size: 64px;
+              @media screen and (max-width: 1400px) {
+                font-size: 45px;
+              }
             }
 
             ul {
                 margin: 0;
                 padding: 0;
-
                 li {
                     margin: 30px;
-                    font-weight: 600;
+                    font-weight: 500;
+                    @media screen and (max-width: 1300px){
+                     margin: 15px;
+                    }
                 }
             }
-
             a {
                 font-size: 22px;
                 font-family: 'Open Sans', sans-serif;

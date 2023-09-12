@@ -243,6 +243,9 @@ export default {
 .item_wrapper {
     width: 300px;
     margin: 30px 0;
+  @media screen and (max-width: 1300px){
+    margin: 30px ;
+  }
 
     button {
         width: 100% !important;
@@ -260,7 +263,6 @@ export default {
 .view_wrap {
     display: flex !important;
     gap: 30px !important;
-
     div {
         img {
             width: 500px;
@@ -272,4 +274,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media screen and (max-width: 1300px){
+      justify-content: center;
+    }
 }</style>
