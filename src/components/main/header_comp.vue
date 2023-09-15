@@ -5,7 +5,8 @@
             <div class="header_titles">
                 <div class="inner_header">
                     <h1>Курсы немецкого языка и образование в Германии</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p>Мы открываем дорогу в лучшее будущее!
+                    </p>
                     <ul>
                         <div class="li_wrap">
                             <li>Доходимость</li>

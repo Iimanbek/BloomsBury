@@ -7,9 +7,7 @@
                         <img class="logggg" src="../../assets/images/german_flag.jpeg" alt="">
                         <span>BLOOMSBURY</span>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sit provident ullam corporis! Nostrum
-                        itaque amet nihil expedita incidunt nesciunt, minus in repellat sit quae cumque excepturi tempore?
-                        Explicabo, unde.</p>
+                    <p>Наши клиенты выбирают нас, потому что мы предоставляем лучшее. Доверьтесь <b>лидерам</b> – доверьтесь <b>нам</b>.</p>
                     <ul class="socials">
                         <li><a href="https://www.instagram.com/bloomsbury.kg/">
                                 <svg xmlns=" http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"

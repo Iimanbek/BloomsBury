@@ -13,19 +13,28 @@
                 <router-link to="/teachers">Преподаватели</router-link>
                 <a href="">Партнеры</a>
             </div>
+          <div class="burger_wrap">
             <div class="link_btn">
                 <a href="tel:+996501287385">Позвонить</a>
             </div>
+            <div  class="burger">
+              <v-burger />
+            </div>
+          </div>
         </nav>
     </div>
 </template>
 <script>
+import Burger from "@/components/main/Burger.vue";
 export default {
     data() {
         return {
-            heightSCroll: 0
+            heightSCroll: 0,
         }
     },
+  components:{
+    'v-burger': Burger
+  },
     methods: {
         navScrol() {
             window.addEventListener('scroll', () => {
@@ -40,7 +49,7 @@ export default {
     }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 nav {
     display: flex;
     justify-content: space-between;
@@ -50,7 +59,21 @@ nav {
     position: fixed;
     width: 100%;
     transition: all 700ms;
-
+    @media screen and (max-width: 1100px) {
+      padding: 0 44px;
+    }
+  .burger_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    .burger{
+      display: none;
+      @media screen and (max-width: 1100px) {
+        display: block;
+      }
+    }
+  }
     .logo_wrapper {
         display: flex;
         align-items: center;
@@ -99,6 +122,9 @@ nav {
         width: 40%;
         font-size: 18px;
         font-family: 'Open Sans', sans-serif;
+      @media screen and (max-width: 1100px) {
+        display: none;
+      }
     }
 }
 
