@@ -6,7 +6,7 @@
                     <h2>Осуществите свою мечту и начните говорить на немецком с нами!</h2>
                     <p>6 ПРИЧИН НАКОНЕЦ-ТО ВЫУЧИТЬ НЕМЕЦКИЙ</p>
                 </div>
-                <div class="table_advantages">
+                <div class="table_advantages table_flex">
                     <div class="table_item">
                         <div class="svg_table">
                             <img src="../../assets/images/svg_folder/world.svg" alt="">
@@ -99,25 +99,27 @@ export default {
                 font-weight: 600;
             }
         }
-
+        .table_flex{
+          @media screen and (max-width: 1000px) {
+            display: flex;
+            justify-content: center;
+          }
+        }
         .table_advantages {
             display: grid;
             grid-template-columns: 33% 33% 33%;
             grid-gap: 10px;
-
+            @media screen and (max-width: 1000px) {
+              grid-template-columns: auto auto ;
+              align-items:stretch;
+            }
             .table_item {
                 &:nth-child(1) {}
-
                 &:nth-child(2) {}
-
                 &:nth-child(3) {}
-
                 &:nth-child(4) {}
-
                 &:nth-child(5) {}
-
                 &:nth-child(6) {}
-
                 background: var(--german-yellow);
                 padding: 20px;
                 margin: 10px;

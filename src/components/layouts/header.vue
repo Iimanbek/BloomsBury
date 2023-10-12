@@ -66,7 +66,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 25%;
     .burger{
       display: none;
       @media screen and (max-width: 1100px) {

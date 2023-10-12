@@ -43,6 +43,12 @@
         display: flex;
         justify-content: space-between;
         gap: 50px;
+        @media screen and (max-width: 1100px) {
+          flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
         .media {
             iframe {
                 width: 800px;
@@ -56,7 +62,12 @@
         .teacher {
             font-family: 'Open sans', sans-serif;
             color: white;
-
+              @media screen and (max-width: 1100px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
             h2 {
                 font-size: 64px;
               @media screen and (max-width: 1400px) {
@@ -67,6 +78,9 @@
             ul {
                 margin: 0;
                 padding: 0;
+              @media screen and (max-width: 1100px) {
+                margin: 20px 0;
+              }
                 li {
                     margin: 30px;
                     font-weight: 500;
@@ -87,7 +101,10 @@
                 display: inline-block;
                 text-align: center;
                 width: 90%;
-
+                @media screen and (max-width: 1100px) {
+                  width: auto;
+                  padding: 10px 50px ;
+                }
                 &:hover {
                     background: var(--german-yellow);
                     color: var(--german-black);
