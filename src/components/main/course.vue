@@ -4,75 +4,78 @@
       <h2 class="title_course">Выберите для себя подходящий вариант обучения </h2>
       <div class="course_wrap">
         <div class="type_course">
-          <img class="image_course" src="../../assets/images/course1.jpg" alt="images">
           <div class="type_course__inner">
-            <div>
+            <div class="type_course__inner_img flex-item">
+              <img class="image_course" src="../../assets/images/course1.jpg" alt="images">
               <h3>Стандартные в группе:</h3>
               <p>1 уровень длится 2 месяца, занятия проводятся через день, отлично подойдет для студентов которые хотят
                 совмещать с другими курсами. Занятия проводятся с опытными преподавателями со стажем от 10 лет и выше
               </p>
             </div>
-            <div>
+            <div class="flex-item1">
+              <div>
+                <p>Стоимость: 3000сом</p>
+                <p>Количество занятий: 3 раза в неделю</p>
+                <p>Продолжительность: 2 часа</p>
+                <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
 
-              <p>Стоимость: 3000сом</p>
-              <p>Количество занятий: 3 раза в неделю</p>
-              <p>Продолжительность: 2 часа</p>
-              <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
-
+              </div>
             </div>
           </div>
         </div>
         <div class="type_course">
-          <img class="image_course" src="../../assets/images/course2.jpg" alt="images">
           <div class="type_course__inner">
-            <div>
+            <div class="type_course__inner_img flex-item">
+              <img class="image_course" src="../../assets/images/course2.jpg" alt="images">
               <h3>Индивидуальные занятия:</h3>
               <p>12 занятии по 1 часу, график подбирается вместе с преподавателем.То что нужно Для комфортного и
                 быстрого изучения языка</p>
             </div>
-            <div>
+            <div class="flex-item1">
 
-              <p>Стоимость: от 4300 - 4800 сомов</p>
-              <p>Количество занятий: 12</p>
-              <p>Продолжительность: 1 час</p>
-              <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
+              <div>
+                <p>Стоимость: от 4300 - 4800 сомов</p>
+                <p>Количество занятий: 12</p>
+                <p>Продолжительность: 1 час</p>
+                <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
+              </div>
 
             </div>
           </div>
         </div>
         <div class="type_course">
-          <img class="image_course" src="../../assets/images/course3.jpg" alt="images">
           <div class="type_course__inner">
-            <div>
+            <div class="type_course__inner_img flex-item">
+              <img class="image_course" src="../../assets/images/course3.jpg" alt="images">
               <h3>Интенсивные в группе: </h3>
               <p>1 уровень длится 2 месяца, занятия проходят каждый день. Отличный метод для усердного изучения и
                 поддержания дисциплины</p>
             </div>
-            <div>
-
-              <p>Стоимость: 3500сом</p>
-              <p>Количество занятий: 5 раз в неделю</p>
-              <p>Продолжительность:1 час 20 мин</p>
-              <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
-
+            <div class="flex-item1">
+              <div>
+                <p>Стоимость: 3500сом</p>
+                <p>Количество занятий: 5 раз в неделю</p>
+                <p>Продолжительность:1 час 20 мин</p>
+                <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="type_course">
-          <img class="image_course" src="../../assets/images/course1.jpg" alt="images">
           <div class="type_course__inner">
-            <div>
+            <div class="type_course__inner_img flex-item">
+              <img class="image_course" src="../../assets/images/course1.jpg" alt="images">
               <h3>Онлайн групповые: </h3>
               <p>3 раза в неделю по 80 минут занятии не выходя из дома. 1 уровень длится 2 месяца. Оптимальное решение
                 для тех кто хочет учиться из дома. Занятия будут эффективными как и офлайн.</p>
             </div>
-            <div>
-
-              <p>Стоимость: 3500сом</p>
-              <p>Количество занятий: 3 раз в неделю</p>
-              <p>Продолжительность:1 час 20 мин</p>
-              <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
-
+            <div class="flex-item1">
+              <div>
+                <p>Стоимость: 3500сом</p>
+                <p>Количество занятий: 3 раз в неделю</p>
+                <p>Продолжительность:1 час 20 мин</p>
+                <a href="https://api.whatsapp.com/send?phone=996500287385" class="consult">Получить консультацию</a>
+              </div>
             </div>
           </div>
         </div>
@@ -109,14 +112,39 @@ export default {}
       justify-content: center;
     }
 
-    .image_course {
-      width: 100%;
-      object-fit: cover;
-      border-radius: 10px;
+    .type_course__inner {
+      padding: 10px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+
+      .flex-item1 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        div {
+          position: relative;
+          bottom: 0;
+        }
+
+      }
+    }
+
+    .type_course__inner_img {
+      .image_course {
+        width: 325px;
+        position: relative;
+        object-fit: cover;
+        border-radius: 10px;
+        top: -10px;
+        left: -10px;
+      }
     }
 
     div {
-      padding: 10px;
 
       h3 {
         font-size: 21px;
